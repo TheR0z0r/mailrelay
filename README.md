@@ -39,6 +39,8 @@ $forms = array(
 
 Just add new array to $forms array. Make sure you specify all the fields in the example, otherwise the script won't work.
 
+To send messages to multiple emails, add the email keys to the emails field array.
+
 # Allowing anonymous forms
 In configuration, change the ALLOW_ANONYMOUS constant to true, so you don't have to specify form ids. In that case, the form is sent to default address.
 
